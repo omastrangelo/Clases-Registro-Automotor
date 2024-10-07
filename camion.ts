@@ -1,13 +1,11 @@
+import { vehiculo } from "./vehiculo";
 
 
-export class Camion {
-    marca : string;
-    modelo : string;
+export class Camion extends vehiculo{
     anio : number;
     color : string;
     constructor(marca:string, modelo:string, anio:number, color:string) {
-        this.marca = marca;
-        this.modelo = modelo;
+        super(marca,modelo)
         this.anio = anio;
         this.color=color;
 

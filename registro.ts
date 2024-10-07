@@ -2,6 +2,7 @@ import { Camion } from "./camion";
 import { Auto } from "./auto";
 import { Moto } from "./moto";
 
+
 export class RegistroAutomotor {
     private numeroRegistro: number;
     private listaAutos: Auto[];
